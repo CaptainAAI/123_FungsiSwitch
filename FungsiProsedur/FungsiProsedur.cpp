@@ -50,21 +50,25 @@ int main()
 		switch (pilihan) 
 		{
 		case 1:
+			input();
 			cout << "Hasil Penjumlahan = " << penjumlahan(a, b) << endl;
 			system("Pause");
 			break;
 
 		case 2:
+			input();
 			cout << "Hasil Pengurangan = " << pengurangan(a, b) << endl;
 			system("Pause");
 			break;
 
 		case 3:
+			input();
 			cout << "Hasil Perkalian = " << perkalian(a, b) << endl;
 			system("Pause");
 			break;
 
 		case 4:
+			input();
 			cout << "Hasil Pembagian = " << pembagian(a, b) << endl;
 			system("Pause");
 			break;
@@ -81,3 +85,4 @@ int main()
 		
 	} while (pilihan != 5);
 }
+
