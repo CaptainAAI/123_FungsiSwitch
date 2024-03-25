@@ -50,23 +50,29 @@ int main()
 		switch (pilihan) 
 		{
 		case 1:
-			cout << "Hasil Penjumlahan = " << penjumlahan << endl;
+			cout << "Hasil Penjumlahan = " << penjumlahan(a, b) << endl;
 			system("Pause");
 			break;
 
 		case 2:
-			cout << "Hasil Pengurangan = " << pengurangan << endl;
+			cout << "Hasil Pengurangan = " << pengurangan(a, b) << endl;
 			system("Pause");
 			break;
 
 		case 3:
-			cout << "Hasil Perkalian = " << perkalian << endl;
+			cout << "Hasil Perkalian = " << perkalian(a, b) << endl;
 			system("Pause");
 			break;
 
 		case 4:
-			cout << "Hasil Pembagian = " << pembagian << endl;
+			cout << "Hasil Pembagian = " << pembagian(a, b) << endl;
 			system("Pause");
+			break;
+
+		case 5:
+			break;
+		default:
+			cout << "Menu tidak tersedia silahkan pilih lagi !!!" << endl;
 			break;
 		}
 
