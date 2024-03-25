@@ -77,7 +77,9 @@ int main()
 			break;
 		default:
 			cout << "Menu tidak tersedia silahkan pilih lagi !!!" << endl;
+			system("Pause");
 			break;
+			
 		}
 
 		
